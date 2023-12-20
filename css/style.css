@@ -56,6 +56,14 @@
   font-display: swap;
   }
 
+body {
+  --white: rgba(255, 255, 255, 1);
+  --translucent-white: linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
+  --light-red: rgba(169, 42, 29, 1);
+  --dark-red: rgba(231, 76, 60, 1);
+  --black: rgba(0, 0, 0, 1);
+}
+
 .container {
     position: relative;
     width: 1600px;
