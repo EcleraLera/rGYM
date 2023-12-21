@@ -22,8 +22,8 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: url(..fonts/Montserrat-SemiBold.woff2), 
-  url(..fonts/Montserrat-SemiBold.woff);
+  src: url(../fonts/Montserrat-SemiBold.woff2), 
+  url(../fonts/Montserrat-SemiBold.woff);
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -56,7 +56,7 @@
   font-display: swap;
   }
 
-body {
+:root {
   --white: rgba(255, 255, 255, 1);
   --translucent-white: linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
   --light-red: rgba(169, 42, 29, 1);
