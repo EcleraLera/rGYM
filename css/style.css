@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 
 @font-face {
@@ -65,33 +67,44 @@
 }
 
 body {
-  margin: 0;
   width: 100%;
   height: 100%;
   background-color: var(--black);
 }
 
 .container {
-    width: 1600px;
-    height: 5645px;
+  margin: 0 auto;
+  width: 1600px;
+  text-align: center;
+}
+
+.rgym {
+  display: inline-block;
+  width: 100%;
+  flex-direction: row nowrap;
 }
 
 .header {
-  width: 100%;
+  width: 1300px;
   height: 850px;
+  padding-top: 26px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 71.06%, #000000 91.71%);
 }
 
+.container__header {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 .header__logo {
-  display: inline-block;
-  margin-right: 2.1%;
+  display: inline-flex;
 }
 
 .logo {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 36px;
-  padding: 0 0 0 150px;
   color: var(--white);
 }
 
@@ -102,19 +115,20 @@ body {
 .header__menu {
   display: inline-flex;
   flex-flow: row;
-  width: 72%;
+  width: 1150px;
   justify-content: space-between;
-  align-items: center;
-  
 }
 
 .timetable {
   display: inline-flex;
-  /* padding-top: 28px; */
+  flex-flow: row nowrap;
+  width: 260px;
+  justify-content: space-between;
 }
 
 .timetable__clock-img{
-  padding: 0 12px 0 0;
+  width: 20px;
+  height: 20px;
 }
 
 .timetable__schedule {
@@ -124,14 +138,14 @@ body {
   color: var(--white);
 }
 
-.nav-menu {
-  display: inline-block;
-  padding: 40px 0 0 20px;
+.nav-menu__list {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.nav-menu__list {
-  display: flex;
-  flex-direction: row;
+.list {
+  width: 530px;
 }
 
 .nav-menu__list a {
@@ -144,13 +158,12 @@ li {
 }
 
 .list-item {
-  margin-right: 64px;
   font-size: 18px;
 }
 
-/* .list-item:last-child {
+.list-item:last-child {
   margin-right: 0px;
-} */
+}
 
 .nav-menu__list-item {
   font-family: 'Montserrat', sans-serif;
@@ -161,10 +174,8 @@ li {
 .list-red {
   background-color: var(--light-red);
   text-align: center;
-  padding-top: 16px;
   width: 111px;
   height: 50px;
-  margin-right: 0px;
 }
 
 
