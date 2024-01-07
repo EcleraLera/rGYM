@@ -78,14 +78,7 @@ body {
   text-align: center;
 }
 
-.rgym {
-  display: inline-block;
-  width: 100%;
-  flex-direction: row nowrap;
-}
-
 .header {
-  display: flex;
   align-items: center;
   display: inline-flex;
   justify-content: space-between;
