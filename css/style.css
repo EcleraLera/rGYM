@@ -239,12 +239,12 @@ hr {
   border: 0;
 }
 
-.hero__right-wrapper {
+.right-wrapper {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
-  top: 0px;
+  top: 325px;
   right: 75px;
 }
 
@@ -272,7 +272,8 @@ hr {
   color: var(--white);
 }
 
-.prev {
+.prev, .next {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -281,21 +282,37 @@ hr {
 .prev:hover {
   color: var(--light-red);
 }
- 
-.next {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+
+.prev:hover > .arrow div {
+  background-color: var(--light-red);
+}
+
+.prev:hover > .arrow div::after {
+  background-color: var(--light-red);
+}
+
+.prev:hover > .arrow div::before {
+  background-color: var(--light-red);
 }
 
 .next:hover {
   color: var(--light-red);
 }
+.next:hover > .arrow div {
+  background-color: var(--light-red);
+}
+
+.next:hover > .arrow div::after {
+  background-color: var(--light-red);
+}
+
+.next:hover > .arrow div::before {
+  background-color: var(--light-red);
+}
 
 .arrow {
   cursor: pointer;
   position: relative;
-  padding-right: 10px;
 }
 
 .arrow div {
@@ -324,14 +341,22 @@ hr {
   background-color: var(--white);
 }
 
-.arrow_up div::after {
-  right: 14px;
-  transform: rotate(135deg);
+.arrow_up {
+  padding-right: 10px;
+}
+
+.arrow_down {
+  padding-left: 10px;
 }
 
 .arrow_up div::before {
   right: 14px;
   transform: rotate(-135deg);
+}
+
+.arrow_up div::after {
+  right: 14px;
+  transform: rotate(135deg);
 }
 
 .arrow_down div::after {
@@ -343,7 +368,6 @@ hr {
   right: -1px;
   transform: rotate(-45deg);
 }
-
 
 
 
