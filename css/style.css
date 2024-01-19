@@ -499,6 +499,7 @@ hr {
 }
 
 .upper-div__text {
+  position: relative;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -508,8 +509,8 @@ hr {
 .upper-div__text::before {
   content: '';
   position: absolute;
-  top: 2133px;
-  left: 736px;
+  top: 7px;
+  left: -14px;
   width: 2px;
   height: 97px;
   background-color: var(--dark-red);
