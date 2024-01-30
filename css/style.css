@@ -556,4 +556,27 @@ hr {
   line-height: 28px;
 }
 
+.bounce {
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  text-align: start;
+  height: 150px;
+  z-index: 1;
+  top: 249px;
+  left: 35px;
+}
 
+.red-circle {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--light-red);
+  animation: bounce 500ms linear infinite alternate;
+}
+
+@keyframes bounce {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-50px);}
+}
