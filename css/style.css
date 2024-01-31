@@ -581,7 +581,7 @@ hr {
   margin-bottom: 265px;
 }
 
-.feedback__content-text {
+.feedback__upper-block {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -613,10 +613,9 @@ hr {
   justify-content: space-around;
   align-items: center;
   height: 154px;
-  /* padding-top: 20px; */
 }
 
-.feedback__button-email {
+.feedback__upper-button {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -628,7 +627,7 @@ hr {
   line-height: 26px;
 }
 
-.feedback__button-submit {
+.feedback__lower-button {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 500;
