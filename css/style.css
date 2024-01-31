@@ -578,7 +578,7 @@ hr {
   padding-right: 230px;
 }
 
-.footer__links-block {
+.footer__right-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -587,7 +587,7 @@ hr {
   padding-bottom: 20px;
 }
 
-.footer__text-content {
+.footer__left-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -614,14 +614,14 @@ hr {
   text-align: left;
 }
 
-.footer__info {
+.footer__info-links {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 234px;
 }
 
-.footer__info-title {
+.info-links__title {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -630,14 +630,14 @@ hr {
   text-align: left;
 }
 
-.footer__info-list {
+.info-links__list, .more-links__list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 168px;
 }
 
-.info-list {
+.info-list, .links-list {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -646,7 +646,7 @@ hr {
   text-align: left;
 }
 
-.footer__info-list a {
+.info-links__list a {
   text-decoration: none;
   color: var(--translucent-white);
 }
@@ -659,7 +659,7 @@ hr {
   padding-left: 33px;
 }
 
-.footer__links-title {
+.more-links__title {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -668,28 +668,12 @@ hr {
   text-align: left;
 }
 
-.footer__links-list {
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 24px;
-  color: var(--translucent-white);
-  text-align: left;
-}
-
-.links-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 168px;
-}
-
-.footer__links-list a {
+.footer__more-links a {
   text-decoration: none;
   color: var(--translucent-white);
 }
 
-.footer__social {
+.footer__social-block {
  display: flex;
  flex-direction: column;
  justify-content: space-between;
@@ -697,7 +681,7 @@ hr {
  height: 97px;
 }
 
-.footer__social-text {
+.social-block__text {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -706,7 +690,7 @@ hr {
   text-align: left;
 }
 
-.footer__social-icons {
+.social-block__icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
