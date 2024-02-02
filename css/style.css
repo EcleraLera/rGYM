@@ -556,6 +556,79 @@ hr {
   line-height: 28px;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 846px;
+}
+
+.gallery__central-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.gallery__info {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 203px;
+  padding: 39px 0 36px 0;
+}
+
+.gallery__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--translucent-white);
+  text-align: center;
+  line-height: 29px;
+  padding-right: 10px;
+}
+
+.gallery__text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--translucent-white);
+  text-align: center;
+  line-height: 26px;
+}
+
+.gallery__foto-1 {
+  position: absolute;
+  top: -321px;
+  left: 568px;
+}
+
+.gallery__foto-2 {
+  position: absolute;
+  top: 135px;
+  left: 546px;
+}
+
+.gallery__foto-4 {
+  position: absolute;
+  top: 135px;
+  right: 550px;
+}
+
+.gallery__foto-5 {
+  position: absolute;
+  top: 695px;
+  right: 558px;
+}
+
+
+
+
 
 .feedback {
   display: flex;
