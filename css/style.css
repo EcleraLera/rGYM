@@ -561,11 +561,10 @@ hr {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 562px;
   width: 100%;
   position: relative;
   top: 1855px;
-  padding: 94px 0 101px 0;
+  padding-top: 94px;
 }
 
 .footer__main-content {
@@ -592,15 +591,13 @@ hr {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 129px;
-  margin-bottom: 20px;
 }
 
 .footer__title {
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-weight: 700;
-  line-height: 54px;
+  line-height: 24px;
   color: var(--translucent-white);
   text-align: left;
 }
@@ -610,8 +607,10 @@ hr {
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
+  letter-spacing: -0.9px;
   color: var(--translucent-white);
   text-align: left;
+  padding-top: 18px;
 }
 
 .footer__info-links {
@@ -630,14 +629,14 @@ hr {
   text-align: left;
 }
 
-.info-links__list, .more-links__list {
+.footer__ul-links {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 168px;
 }
 
-.info-list, .links-list {
+.ul-links {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -646,7 +645,7 @@ hr {
   text-align: left;
 }
 
-.info-links__list a {
+.footer__info-links a {
   text-decoration: none;
   color: var(--translucent-white);
 }
@@ -714,7 +713,7 @@ hr {
   font-weight: 400;
   line-height: 26px;
   color: var(--white);
-  padding: 0 32px 0 0;
+  padding: 87px 32px 200px 0;
   text-align: center;
 }
 
