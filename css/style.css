@@ -626,10 +626,6 @@ hr {
   right: 558px;
 }
 
-
-
-
-
 .feedback {
   display: flex;
   flex-direction: column;
@@ -713,3 +709,166 @@ hr {
 }
 
 /* last hope */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  top: 1855px;
+  padding-top: 94px;
+}
+
+.footer__main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 230px;
+}
+
+.footer__right-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 64%;
+  padding-bottom: 20px;
+}
+
+.footer__left-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--translucent-white);
+  text-align: left;
+}
+
+.footer__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.9px;
+  color: var(--translucent-white);
+  text-align: left;
+  padding-top: 18px;
+}
+
+.footer__info-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 234px;
+}
+
+.info-links__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--translucent-white);
+  text-align: left;
+}
+
+.footer__ul-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 168px;
+}
+
+.ul-links {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--translucent-white);
+  text-align: left;
+}
+
+.footer__info-links a {
+  text-decoration: none;
+  color: var(--translucent-white);
+}
+
+.footer__more-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 234px;
+  padding-left: 33px;
+}
+
+.more-links__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--translucent-white);
+  text-align: left;
+}
+
+.footer__more-links a {
+  text-decoration: none;
+  color: var(--translucent-white);
+}
+
+.footer__social-block {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: flex-start;
+ height: 97px;
+}
+
+.social-block__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--translucent-white);
+  text-align: left;
+}
+
+.social-block__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 147px;
+}
+
+.footer__social-icon {
+  display: inline-block;
+  height: 43px;
+  width: 43px;
+  background-color: rgb(41, 41, 41);
+}
+
+.footer__social-icon img {
+  padding-top: 12px;
+}
+
+.footer__copyright {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--white);
+  padding: 87px 32px 200px 0;
+  text-align: center;
+}
+
+/* последняя надежда */
