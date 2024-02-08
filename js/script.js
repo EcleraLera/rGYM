@@ -13,9 +13,9 @@ const footer = document.querySelector('.footer');
 // const popularTop = popular.getBoundingClientRect().top;
 // const individualTop = individual.getBoundingClientRect().top;
 // const galleryTop = gallery.getBoundingClientRect().top;
-// const feedbackTop = feedback.getBoundingClientRect().top;
-// const footerTop = footer.getBoundingClientRect().top;
-// // console.log(heroCoord);
+// const feedbackTop = feedback.getBoundingClientRect();
+// const footerTop = footer.getBoundingClientRect();
+// console.log(feedbackTop);
 // const next = document.querySelector('.next');
 // // console.log(next);
 // next.addEventListener("click", nextSectionScroll);
@@ -37,9 +37,9 @@ function previousSectionScroll() {
         popular.scrollIntoView();
     } else if (window.pageYOffset > 2037 && window.pageYOffset <= 3165) {
         individual.scrollIntoView();
-    } else if (window.pageYOffset > 3165 && window.pageYOffset <= 2037) {
+    } else if (window.pageYOffset > 3165 && window.pageYOffset <= 4857) {
         gallery.scrollIntoView();
-    } else if (window.pageYOffset > 930 && window.pageYOffset <= 2037) {
+    } else if (window.pageYOffset > 4857 && window.pageYOffset <= 6908) {
         feedback.scrollIntoView();
     } 
 }
