@@ -85,6 +85,7 @@ body {
   margin: 0 auto;
   width: 1600px;
   text-align: center;
+  position: relative;
 }
 
 .header {
@@ -253,7 +254,7 @@ hr {
   justify-content: space-between;
   position: fixed;
   z-index: 1;
-  top: 325px;
+  top: 125px;
   right: 75px;
 }
 
