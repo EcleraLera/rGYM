@@ -413,12 +413,14 @@ hr {
   text-align: center;
   margin-bottom: 20px;
   line-height: 26px;
+  letter-spacing: -0.05em;
 }
 
 .popular__exercises {
   position: relative;
   top: 35px;
 }
+
 .popular__exercise-first::before {
   position: relative;
   display: inline-flex;
@@ -504,7 +506,8 @@ hr {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  padding-right: 96px;
+  padding-right: 171px;
+  letter-spacing: -0.05em;
 }
 
 .upper-div__text::before {
@@ -555,6 +558,7 @@ hr {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  letter-spacing: -0.05em;
 }
 
 .gallery {
@@ -601,6 +605,7 @@ hr {
   color: var(--translucent-white);
   text-align: center;
   line-height: 26px;
+  letter-spacing: -0.05em;
 }
 
 .gallery__foto-1 {
@@ -632,7 +637,6 @@ hr {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  top: 846px;
   position: relative;
   z-index: -1;
   width: 100%;
@@ -675,6 +679,7 @@ hr {
   line-height: 26px;
   text-align: center;
   color: var(--translucent-white);
+  letter-spacing: -0.05em;
 }
 
 .feedback__buttons {
@@ -716,8 +721,7 @@ hr {
   align-items: center;
   width: 100%;
   position: relative;
-  top: 1855px;
-  padding-top: 94px;
+  padding-top: 61px;
 }
 
 .footer__main-content {
@@ -866,6 +870,6 @@ hr {
   font-weight: 400;
   line-height: 26px;
   color: var(--white);
-  padding: 87px 32px 200px 0;
+  padding: 87px 32px 164px 0;
   text-align: center;
 }
