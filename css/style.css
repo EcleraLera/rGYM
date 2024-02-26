@@ -557,7 +557,6 @@ hr {
 }
 
 .bounce {
-  display: inline-block;
   position: fixed;
   width: 100%;
   text-align: start;
@@ -565,6 +564,14 @@ hr {
   z-index: 1;
   top: 249px;
   left: 35px;
+}
+
+.bounce--hidden {
+  display: none;
+} 
+
+.bounce--show {
+  display: inline-block;
 }
 
 .red-circle {
